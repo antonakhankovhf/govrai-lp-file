@@ -1,0 +1,511 @@
+<!doctype html>
+<html lang="de">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>KI Legal Guide – Kostenfreies Video</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Barlow:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<style>#ki-legal-guide-page{font-family:Barlow,system-ui,sans-serif;color:#0A1330;background:#F7FAFE;font-size:16px;line-height:1.5}
+#ki-legal-guide-page a{color:#1D4ED8}
+#ki-legal-guide-page a:hover{color:#0C2F6B}
+@keyframes gv-pulse{0%{transform:scale(1);opacity:.6}100%{transform:scale(2.2);opacity:0}}
+@keyframes gv-float{0%,100%{transform:translateY(0)}50%{transform:translateY(-10px)}}
+@keyframes gv-float2{0%,100%{transform:translateY(0)}50%{transform:translateY(9px)}}
+@keyframes gv-pan{0%{background-position:0% 50%}100%{background-position:100% 50%}}
+@keyframes gv-shine{0%,60%{transform:translateX(-140%) skewX(-20deg)}100%{transform:translateX(330%) skewX(-20deg)}}
+@keyframes gv-nudge{0%,100%{transform:translateX(0)}50%{transform:translateX(5px)}}
+@keyframes gv-rise{from{opacity:0;translate:0 30px}to{opacity:1;translate:0 0}}
+@keyframes gv-wipe{from{clip-path:inset(0 100% 0 0 round 16px)}to{clip-path:inset(0 0 0 0 round 16px)}}
+@keyframes gv-dash{to{stroke-dashoffset:-32}}
+@keyframes gv-travel{0%{left:0%}100%{left:100%}}
+@keyframes gv-spin{to{transform:rotate(360deg)}}
+@keyframes gv-blink{0%,100%{opacity:1}50%{opacity:.35}}
+@keyframes gv-bar{0%,100%{transform:scaleY(.5)}50%{transform:scaleY(1)}}
+@keyframes gv-needle{0%,100%{transform:rotate(-42deg)}50%{transform:rotate(38deg)}}
+@keyframes gv-tilt{0%,100%{transform:rotate(-5deg)}50%{transform:rotate(5deg)}}
+.gv-pulse{animation:gv-pulse 2.4s ease-out infinite}
+.gv-pulse2{animation:gv-pulse 2.4s ease-out 1.2s infinite}
+.gv-float{animation:gv-float 6s ease-in-out infinite}
+.gv-float2{animation:gv-float2 7s ease-in-out infinite}
+.gv-pan{background-size:220% 220% !important;animation:gv-pan 12s ease-in-out infinite alternate}
+.gv-cta{position:relative;overflow:hidden;transition:transform .25s ease}
+.gv-cta:hover{transform:translateY(-2px)}
+.gv-cta::after{content:"";position:absolute;top:0;bottom:0;left:0;width:34%;pointer-events:none;background:linear-gradient(90deg,transparent,rgba(255,255,255,.4),transparent);animation:gv-shine 4.5s ease-in-out infinite}
+.gv-cta svg{animation:gv-nudge 1.6s ease-in-out infinite}
+.gv-card{transition:transform .3s ease,box-shadow .3s ease}
+.gv-card:hover{transform:translateY(-6px);box-shadow:0 28px 50px -28px rgba(10,19,48,.45)}
+.gv-spin{transform-origin:center;transform-box:fill-box;animation:gv-spin 18s linear infinite}
+.gv-blink{animation:gv-blink 2.2s ease-in-out infinite}
+.gv-bar{transform-origin:bottom;transform-box:fill-box;animation:gv-bar 2.6s ease-in-out infinite}
+.gv-needle{transform-origin:bottom center;transform-box:fill-box;animation:gv-needle 3.4s ease-in-out infinite}
+.gv-tilt{transform-origin:center top;transform-box:fill-box;animation:gv-tilt 3.6s ease-in-out infinite}
+.gv-dash{stroke-dasharray:8 8;animation:gv-dash 1.2s linear infinite}
+.gv-travel{animation:gv-travel 5s ease-in-out infinite alternate}
+@keyframes gv-draw{0%,12%{stroke-dashoffset:24}45%,85%{stroke-dashoffset:0}100%{stroke-dashoffset:24}}
+@keyframes gv-pop{0%,100%{transform:scale(1)}50%{transform:scale(1.06)}}
+.gv-draw{stroke-dasharray:24;animation:gv-draw 3.2s ease-in-out infinite}
+.gv-spinr{transform-origin:center;transform-box:fill-box;animation:gv-spin 12s linear infinite reverse}
+.gv-orbit{transform-origin:110px 110px;animation:gv-spin 7s linear infinite}
+.gv-orbit2{transform-origin:110px 110px;animation:gv-spin 11s linear infinite reverse}
+.gv-q{display:inline-block;animation:gv-blink 1.4s ease-in-out infinite}
+.gv-pop{animation:gv-pop 3.2s ease-in-out infinite}
+@supports (animation-timeline: view()){
+.gv-rise{animation:gv-rise linear both;animation-timeline:view();animation-range:entry 0% entry 60%}
+.gv-wipe{animation:gv-wipe linear both;animation-timeline:view();animation-range:entry 10% cover 30%}
+}
+@media (prefers-reduced-motion: reduce){.gv-pulse,.gv-pulse2,.gv-float,.gv-float2,.gv-pan,.gv-cta::after,.gv-cta svg,.gv-spin,.gv-blink,.gv-bar,.gv-needle,.gv-tilt,.gv-dash,.gv-travel,.gv-rise,.gv-wipe,.gv-draw,.gv-spinr,.gv-orbit,.gv-orbit2,.gv-q,.gv-pop{animation:none}}
+#ki-legal-guide-page{scroll-behavior:smooth}
+#ki-legal-guide-page{overflow-x:clip}
+#ki-legal-guide-page section{overflow-x:clip}
+@media (max-width:600px){#ki-legal-guide-page a[data-optin]{white-space:normal !important}}
+@media (max-width:600px){#ki-legal-guide-page h2{font-size:30px !important}#ki-legal-guide-page .vlabel{white-space:normal !important}}
+#ki-legal-guide-page dialog::backdrop{background:rgba(2,6,23,.6)}
+#ki-legal-guide-page dialog{border:0;padding:0;border-radius:20px;max-width:min(560px,calc(100vw - 32px));width:100%;box-shadow:0 40px 80px -30px rgba(2,6,23,.7)}
+#ki-legal-guide-page button.st-item:focus-visible,#ki-legal-guide-page a:focus-visible,#ki-legal-guide-page input:focus-visible{outline:3px solid #38BDF8;outline-offset:2px}
+</style>
+</head>
+<body>
+<div id="ki-legal-guide-page">
+<div style="font-family: Barlow, system-ui, sans-serif; color: #0A1330; background: #F7FAFE; font-size: 16px; line-height: 1.5">
+
+<div style="min-height: 40px; box-sizing: border-box; padding: 9px 32px; background: linear-gradient(120deg, #020617 0%, #0C2F6B 32%, #1D4ED8 62%, #1D4ED8 100%); color: #FFFFFF; font-size: 14px; font-weight: 500; text-align: center">Seit Februar 2025 gelten erste Schulungspflichten der EU-KI-Verordnung für Unternehmen.</div>
+
+
+<header style="background: #FFFFFF; border-bottom: 1px solid #DDE5FA">
+<div style="max-width: 1120px; margin: 0 auto; padding: 0 32px; min-height: 72px; box-sizing: border-box; display: flex; align-items: center; justify-content: space-between; gap: 16px; flex-wrap: wrap">
+<a href="/" style="display: flex; align-items: center; gap: 10px; text-decoration: none; color: inherit">
+<svg width="30" height="34" viewBox="0 0 30 34" role="img" aria-label="GovrAI Logo"><path d="M15 1 L28 5.5 V16 C28 24.5 22.5 30.5 15 33 C7.5 30.5 2 24.5 2 16 V5.5 Z" fill="#0A1330"></path><text x="15" y="23" text-anchor="middle" font-family="Barlow, sans-serif" font-size="17" font-weight="700" fill="#E4C255">&#167;</text></svg>
+<div style="font-size: 20px; font-weight: 800; letter-spacing: -0.3px">Govr<span style="color: #96740F">AI</span></div>
+</a>
+<a href="#freischalten" data-optin style="display: inline-flex; align-items: center; min-height: 44px; box-sizing: border-box; padding: 10px 22px; border-radius: 999px; background: #1D4ED8; color: #FFFFFF; font-size: 15px; font-weight: 700; text-decoration: none">Video freischalten</a>
+</div>
+</header>
+
+<section style="box-sizing: border-box; padding: 72px 0 80px; background: #F7FAFE; position: relative; overflow: hidden">
+<div style="max-width: 1120px; margin: 0 auto; padding: 0 32px; display: flex; flex-wrap: wrap; align-items: center; gap: 56px">
+<div style="flex: 1.5 1 520px; min-width: 0; display: flex; flex-direction: column; align-items: flex-start; gap: 22px">
+<div style="display: inline-flex; align-items: center; gap: 8px; padding: 7px 16px; border-radius: 999px; background: #FFFFFF; border: 1px solid #DDE5FA; font-size: 13px; font-weight: 600; letter-spacing: 0.14em; text-transform: uppercase; color: #0A1330">Kostenfreies Video „KI Legal Guide“ freischalten:</div>
+<h1 style="margin: 0; font-size: 38px; line-height: 1.15; font-weight: 800; letter-spacing: -0.9px; text-wrap: balance">KI erfolgreich und rechtssicher im Unternehmen einsetzen!</h1>
+<p style="margin: 0; font-size: 18px; line-height: 1.6; color: #4F5B7D; text-wrap: pretty">Erfahre Schritt für Schritt, wie Du weiterhin KI gewinnbringend in Deinem Unternehmen nutzt und dabei die neuen KI-Gesetze rechtssicher erfüllst, ohne teure Abmahnungen oder Haftungsfallen zu riskieren.</p>
+<a href="#freischalten" data-optin class="gv-cta" style="display: inline-flex; align-items: center; gap: 12px; min-height: 60px; box-sizing: border-box; padding: 16px 30px; border-radius: 999px; background: #1D4ED8; color: #FFFFFF; font-size: 18px; font-weight: 700; text-decoration: none; box-shadow: 0 14px 28px -14px rgba(10, 19, 48, 0.45)">Hier klicken und kostenfreies Video freischalten!<svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"></path></svg></a>
+<div style="display: flex; flex-wrap: wrap; gap: 8px 22px; font-size: 14px; font-weight: 500; color: #4F5B7D">
+<div style="display: flex; align-items: center; gap: 7px"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#1D4ED8" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12.5l4.5 4.5L19 7.5"></path></svg>Kostenfrei</div>
+<div style="display: flex; align-items: center; gap: 7px"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#1D4ED8" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12.5l4.5 4.5L19 7.5"></path></svg>Sofort ansehen</div>
+<div style="display: flex; align-items: center; gap: 7px"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#1D4ED8" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12.5l4.5 4.5L19 7.5"></path></svg>Kein Technik- oder Jura-Vorwissen nötig</div>
+</div>
+</div>
+
+<div style="flex: 1 1 380px; min-width: 0; position: relative; z-index: 0">
+<svg aria-hidden="true" width="470" height="533" viewBox="0 0 30 34" style="position: absolute; z-index: -1; right: -100px; top: -90px"><path d="M15 1 L28 5.5 V16 C28 24.5 22.5 30.5 15 33 C7.5 30.5 2 24.5 2 16 V5.5 Z" fill="#1D4ED8" fill-opacity="0.1"/><text x="15" y="23" text-anchor="middle" font-family="Barlow, sans-serif" font-size="17" font-weight="700" fill="#1D4ED8" fill-opacity="0.1">&#167;</text></svg>
+<a href="#freischalten" data-optin aria-label="Video freischalten" style="display: block; text-decoration: none; color: #0A1330; background: #FFFFFF; border-radius: 20px; overflow: hidden; border: 1px solid #DDE5FA; box-shadow: 0 30px 60px -30px rgba(10, 19, 48, 0.35)">
+<div class="gv-pan" style="position: relative; aspect-ratio: 16 / 9; background: linear-gradient(120deg, #020617 0%, #0C2F6B 40%, #1D4ED8 100%); display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 16px; padding: 68px 24px 24px; box-sizing: border-box">
+<div style="position: absolute; top: 16px; left: 16px; display: flex; align-items: center; gap: 7px; padding: 6px 12px; border-radius: 999px; background: #E4C255; color: #0A1330; font-size: 12px; font-weight: 700; letter-spacing: 0.1em; text-transform: uppercase"><svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="5" y="11" width="14" height="9" rx="2"></rect><path d="M8 11V8a4 4 0 0 1 8 0v3"></path></svg>Kostenfrei freischalten</div>
+<div style="position: relative; width: 84px; height: 84px; border-radius: 999px; background: #FFFFFF; display: flex; align-items: center; justify-content: center; box-shadow: 0 0 0 12px rgba(255, 255, 255, 0.16)"><span class="gv-pulse" aria-hidden="true" style="position: absolute; inset: 0; border-radius: 999px; border: 2px solid #FFFFFF"></span><span class="gv-pulse2" aria-hidden="true" style="position: absolute; inset: 0; border-radius: 999px; border: 2px solid #FFFFFF"></span><svg width="30" height="30" viewBox="0 0 24 24" fill="#1D4ED8" aria-hidden="true"><path d="M8 5.5v13l11-6.5z"></path></svg></div>
+<div style="font-size: 13px; font-weight: 500; color: #DDE5FA; border: 1px dashed rgba(221, 229, 250, 0.6); border-radius: 8px; padding: 6px 12px">Platzhalter: Standbild aus dem Video mit Sprecher</div>
+</div>
+<div style="padding: 20px 24px 24px; display: flex; flex-direction: column; gap: 8px">
+<div style="font-size: 12px; font-weight: 700; letter-spacing: 0.03em; text-transform: uppercase; color: #1D4ED8; white-space: nowrap" class="vlabel">SCHÜTZE DICH VOR HOHEN ABMAHNUNGEN UND ERFAHRE:</div>
+<div style="font-size: 20px; line-height: 1.3; font-weight: 700; text-wrap: pretty">Was die meisten Unternehmen beim Einsatz von KI übersehen und warum genau das teuer werden kann!</div>
+</div>
+</a>
+</div>
+</div>
+</section>
+
+<div style="min-height: 128px; box-sizing: border-box; padding: 32px; background: linear-gradient(120deg, #020617 0%, #0C2F6B 34%, #1D4ED8 80%, #38BDF8 118%); display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 14px">
+<div style="font-size: 12px; font-weight: 600; letter-spacing: 0.22em; text-transform: uppercase; color: #DDE5FA">Vertraut von Teams aus</div>
+<div style="display: flex; flex-wrap: wrap; justify-content: center; gap: 10px 36px; font-size: 17px; font-weight: 600; color: #FFFFFF">
+<div>Mittelstand</div><div>Kanzleien</div><div>Agenturen</div><div>Beratungen</div><div>Industrie</div><div>Start-ups</div>
+</div>
+</div>
+
+<section style="min-height: 840px; box-sizing: border-box; padding: 96px 0; background: #FFFFFF">
+<div style="max-width: 1120px; margin: 0 auto; padding: 0 32px; display: flex; flex-direction: column; gap: 40px">
+<div style="display: flex; flex-direction: column; gap: 12px; max-width: 760px">
+<div style="font-size: 12px; font-weight: 600; letter-spacing: 0.2em; text-transform: uppercase; color: #1D4ED8">Mach den Selbsttest</div>
+<h2 style="margin: 0; font-size: 40px; line-height: 1.08; font-weight: 800; letter-spacing: -1px; text-wrap: balance">Wie viele dieser Aussagen kannst Du heute abhaken?</h2>
+</div>
+<div style="font-size: 18px; color: #4F5B7D; margin-top: -20px">Hake alles ab, was auf Dich und Dein Unternehmen zutrifft.</div>
+<div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(min(300px, 100%), 1fr)); gap: 16px">
+
+<button type="button" class="st-item" data-i="0" data-topic="KI-Überblick" aria-pressed="false" style="display: flex; align-items: flex-start; gap: 14px; text-align: left; min-height: 104px; padding: 22px; border-radius: 20px; border: 1.5px solid #DDE5FA; background: #F7FAFE; font-family: inherit; font-size: 18px; line-height: 1.4; font-weight: 600; color: #0A1330; cursor: pointer; transition: background .2s ease, border-color .2s ease">
+<span class="st-dot" aria-hidden="true" style="flex: none; width: 28px; height: 28px; margin-top: 1px; box-sizing: border-box; border-radius: 999px; border: 2px solid #AEC2EC; background: #FFFFFF; display: flex; align-items: center; justify-content: center; transition: background .2s ease, border-color .2s ease"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#FFFFFF" stroke-width="3.2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12.5l4.5 4.5L19 7.5"/></svg></span>
+<span>Ich weiß genau, welche KI-Tools in meinem Unternehmen im Einsatz sind.</span>
+</button>
+<button type="button" class="st-item" data-i="1" data-topic="EU AI Act" aria-pressed="false" style="display: flex; align-items: flex-start; gap: 14px; text-align: left; min-height: 104px; padding: 22px; border-radius: 20px; border: 1.5px solid #DDE5FA; background: #F7FAFE; font-family: inherit; font-size: 18px; line-height: 1.4; font-weight: 600; color: #0A1330; cursor: pointer; transition: background .2s ease, border-color .2s ease">
+<span class="st-dot" aria-hidden="true" style="flex: none; width: 28px; height: 28px; margin-top: 1px; box-sizing: border-box; border-radius: 999px; border: 2px solid #AEC2EC; background: #FFFFFF; display: flex; align-items: center; justify-content: center; transition: background .2s ease, border-color .2s ease"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#FFFFFF" stroke-width="3.2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12.5l4.5 4.5L19 7.5"/></svg></span>
+<span>Ich weiß, ob und wie der EU AI Act unsere KI-Anwendungen betrifft.</span>
+</button>
+<button type="button" class="st-item" data-i="2" data-topic="Datenregeln" aria-pressed="false" style="display: flex; align-items: flex-start; gap: 14px; text-align: left; min-height: 104px; padding: 22px; border-radius: 20px; border: 1.5px solid #DDE5FA; background: #F7FAFE; font-family: inherit; font-size: 18px; line-height: 1.4; font-weight: 600; color: #0A1330; cursor: pointer; transition: background .2s ease, border-color .2s ease">
+<span class="st-dot" aria-hidden="true" style="flex: none; width: 28px; height: 28px; margin-top: 1px; box-sizing: border-box; border-radius: 999px; border: 2px solid #AEC2EC; background: #FFFFFF; display: flex; align-items: center; justify-content: center; transition: background .2s ease, border-color .2s ease"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#FFFFFF" stroke-width="3.2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12.5l4.5 4.5L19 7.5"/></svg></span>
+<span>Mein Team hat klare Regeln, welche Daten in ChatGPT und Co. eingegeben werden dürfen.</span>
+</button>
+<button type="button" class="st-item" data-i="3" data-topic="Haftung" aria-pressed="false" style="display: flex; align-items: flex-start; gap: 14px; text-align: left; min-height: 104px; padding: 22px; border-radius: 20px; border: 1.5px solid #DDE5FA; background: #F7FAFE; font-family: inherit; font-size: 18px; line-height: 1.4; font-weight: 600; color: #0A1330; cursor: pointer; transition: background .2s ease, border-color .2s ease">
+<span class="st-dot" aria-hidden="true" style="flex: none; width: 28px; height: 28px; margin-top: 1px; box-sizing: border-box; border-radius: 999px; border: 2px solid #AEC2EC; background: #FFFFFF; display: flex; align-items: center; justify-content: center; transition: background .2s ease, border-color .2s ease"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#FFFFFF" stroke-width="3.2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12.5l4.5 4.5L19 7.5"/></svg></span>
+<span>Ich weiß, wofür ich hafte, wenn unsere KI einen Fehler macht.</span>
+</button>
+<button type="button" class="st-item" data-i="4" data-topic="Anbieter-Risiko" aria-pressed="false" style="display: flex; align-items: flex-start; gap: 14px; text-align: left; min-height: 104px; padding: 22px; border-radius: 20px; border: 1.5px solid #DDE5FA; background: #F7FAFE; font-family: inherit; font-size: 18px; line-height: 1.4; font-weight: 600; color: #0A1330; cursor: pointer; transition: background .2s ease, border-color .2s ease">
+<span class="st-dot" aria-hidden="true" style="flex: none; width: 28px; height: 28px; margin-top: 1px; box-sizing: border-box; border-radius: 999px; border: 2px solid #AEC2EC; background: #FFFFFF; display: flex; align-items: center; justify-content: center; transition: background .2s ease, border-color .2s ease"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#FFFFFF" stroke-width="3.2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12.5l4.5 4.5L19 7.5"/></svg></span>
+<span>Ich weiß, was passiert, wenn unser KI-Anbieter sein Modell oder seine Bedingungen ändert.</span>
+</button>
+<button type="button" class="st-item" data-i="5" data-topic="Nachweisbarkeit" aria-pressed="false" style="display: flex; align-items: flex-start; gap: 14px; text-align: left; min-height: 104px; padding: 22px; border-radius: 20px; border: 1.5px solid #DDE5FA; background: #F7FAFE; font-family: inherit; font-size: 18px; line-height: 1.4; font-weight: 600; color: #0A1330; cursor: pointer; transition: background .2s ease, border-color .2s ease">
+<span class="st-dot" aria-hidden="true" style="flex: none; width: 28px; height: 28px; margin-top: 1px; box-sizing: border-box; border-radius: 999px; border: 2px solid #AEC2EC; background: #FFFFFF; display: flex; align-items: center; justify-content: center; transition: background .2s ease, border-color .2s ease"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#FFFFFF" stroke-width="3.2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12.5l4.5 4.5L19 7.5"/></svg></span>
+<span>Ich kann im Ernstfall belegen, was unsere KI getan hat.</span>
+</button>
+</div>
+<div style="background: #EEF3FD; border: 1px solid #DDE5FA; border-radius: 20px; padding: 22px 28px; display: flex; flex-wrap: wrap; align-items: center; gap: 16px 28px">
+<div style="flex: none; display: flex; align-items: baseline; gap: 6px"><div style="font-size: 48px; line-height: 1; font-weight: 800; color: #1D4ED8" id="st-count">0</div><div style="font-size: 20px; font-weight: 700; color: #4F5B7D">von 6</div></div>
+<div style="flex: 1 1 320px; min-width: 0; display: flex; flex-direction: column; gap: 10px">
+<div style="font-size: 20px; line-height: 1.35; font-weight: 700" id="st-verdict" aria-live="polite"></div>
+<div style="height: 8px; border-radius: 999px; background: #DDE5FA; overflow: hidden"><div id="st-bar" style="height: 100%; width: 0%; border-radius: 999px; background: #1D4ED8; transition: width .3s ease"></div></div>
+</div>
+</div>
+<div style="background: #0A1330; color: #FFFFFF; border-radius: 20px; padding: 32px 36px; display: flex; flex-wrap: wrap; align-items: center; gap: 20px 40px">
+<div style="flex: 999 1 480px; min-width: 0; font-size: 22px; line-height: 1.4; font-weight: 600; text-wrap: pretty">„Wir wollen KI nutzen, aber ich will nicht erst nach dem Rollout merken, dass wir technisch, organisatorisch oder rechtlich etwas Entscheidendes übersehen haben.“</div>
+<div style="flex: 0 1 auto; display: flex; flex-direction: column; align-items: center; text-align: center; gap: 14px"><div style="font-size: 16px; line-height: 1.5; color: #DDE5FA">Genau darum geht es in diesem Video:</div><a href="#freischalten" data-optin style="display: inline-flex; align-items: center; min-height: 52px; box-sizing: border-box; padding: 14px 24px; border-radius: 999px; background: #E4C255; color: #0A1330; font-size: 16px; font-weight: 700; text-decoration: none; white-space: nowrap; gap: 10px"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="4" y="11" width="16" height="10" rx="2.5"></rect><path d="M8 11V7.500a4 4 0 0 1 7.700-1.500"></path><circle cx="12" cy="16" r="1.200" fill="currentColor"></circle></svg>Kostenfreies Video freischalten</a></div>
+</div>
+</div>
+</section>
+
+<section style="min-height: 1040px; box-sizing: border-box; padding: 96px 0; background: #F7FAFE">
+<div style="max-width: 1120px; margin: 0 auto; padding: 0 32px; display: flex; flex-direction: column; gap: 40px">
+<div style="display: flex; flex-direction: column; gap: 12px">
+<div style="font-size: 12px; font-weight: 600; letter-spacing: 0.2em; text-transform: uppercase; color: #1D4ED8">6 Antworten in einem Video</div>
+<h2 style="margin: 0; font-size: 40px; line-height: 1.08; font-weight: 800; letter-spacing: -1px">In diesem Video erfährst Du:</h2>
+</div>
+<div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(min(300px, 100%), 1fr)); gap: 20px">
+
+<div class="gv-card gv-rise" style="background: #FFFFFF; border-radius: 20px; padding: 28px; display: flex; flex-direction: column; gap: 12px; box-shadow: 0 18px 40px -28px rgba(10, 19, 48, 0.3)">
+<div style="display: flex; align-items: center; justify-content: space-between"><div style="width: 68px; height: 68px; border-radius: 18px; background: #EEF3FD; display: flex; align-items: center; justify-content: center"><svg width="46" height="46" viewBox="0 0 64 64" aria-hidden="true"><rect x="8" y="34" width="11" height="22" rx="3" fill="#AEC2EC" class="gv-bar"></rect><rect x="26" y="22" width="11" height="34" rx="3" fill="#1D4ED8" class="gv-bar" style="animation-delay: .4s"></rect><rect x="44" y="12" width="11" height="44" rx="3" fill="#0A1330" class="gv-bar" style="animation-delay: .8s"></rect><circle cx="15" cy="15" r="10" fill="#E4C255"></circle><text x="15" y="19.5" text-anchor="middle" font-family="Barlow, sans-serif" font-size="13" font-weight="800" fill="#0A1330">&#8364;</text></svg></div><div style="font-size: 15px; font-weight: 800; letter-spacing: 0.08em; color: #4F5B7D">01</div></div>
+<h3 style="margin: 0; font-size: 21px; line-height: 1.3; font-weight: 700">Welche KI-Anwendungen sich für Dich lohnen</h3>
+<p style="margin: 0; font-size: 16px; line-height: 1.55; color: #4F5B7D">Du erkennst, wo KI Deinem Unternehmen echten Nutzen bringt und wo Du nur Zeit und Geld in das falsche Tool steckst.</p>
+</div>
+<div class="gv-card gv-rise" style="background: #FFFFFF; border-radius: 20px; padding: 28px; display: flex; flex-direction: column; gap: 12px; box-shadow: 0 18px 40px -28px rgba(10, 19, 48, 0.3)">
+<div style="display: flex; align-items: center; justify-content: space-between"><div style="width: 68px; height: 68px; border-radius: 18px; background: #EEF3FD; display: flex; align-items: center; justify-content: center"><svg width="46" height="46" viewBox="0 0 64 64" aria-hidden="true"><rect x="12" y="6" width="34" height="48" rx="6" fill="#FFFFFF" stroke="#1D4ED8" stroke-width="3"></rect><text x="29" y="27" text-anchor="middle" font-family="Barlow, sans-serif" font-size="18" font-weight="800" fill="#0A1330">&#167;</text><path d="M19 36h20M19 43h12" stroke="#AEC2EC" stroke-width="3" stroke-linecap="round"></path><g class="gv-blink"><circle cx="46" cy="46" r="12" fill="#E4C255"></circle><path d="M40.5 46.5l4 4 7.5-8" fill="none" stroke="#0A1330" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"></path></g></svg></div><div style="font-size: 15px; font-weight: 800; letter-spacing: 0.08em; color: #4F5B7D">02</div></div>
+<h3 style="margin: 0; font-size: 21px; line-height: 1.3; font-weight: 700">Welche KI-Regeln für Dich gelten</h3>
+<p style="margin: 0; font-size: 16px; line-height: 1.55; color: #4F5B7D">Du lernst, wie Du Deine KI-Anwendungen nach den neuen KI-Gesetzen richtig einstufst und welche Pflichten sich daraus für Dein Unternehmen ergeben.</p>
+</div>
+<div class="gv-card gv-rise" style="background: #FFFFFF; border-radius: 20px; padding: 28px; display: flex; flex-direction: column; gap: 12px; box-shadow: 0 18px 40px -28px rgba(10, 19, 48, 0.3)">
+<div style="display: flex; align-items: center; justify-content: space-between"><div style="width: 68px; height: 68px; border-radius: 18px; background: #EEF3FD; display: flex; align-items: center; justify-content: center"><svg width="46" height="46" viewBox="0 0 64 64" aria-hidden="true"><path d="M32 10v44M20 56h24" stroke="#0A1330" stroke-width="4" stroke-linecap="round"></path><g class="gv-tilt"><path d="M10 18h44" stroke="#1D4ED8" stroke-width="4" stroke-linecap="round"></path><path d="M14 18l-8 16h16zM50 18l-8 16h16z" fill="none" stroke="#1D4ED8" stroke-width="2.5" stroke-linejoin="round"></path><path d="M6 34h16a8 8 0 0 1-16 0zM42 34h16a8 8 0 0 1-16 0z" fill="#E4C255"></path></g><circle cx="32" cy="12" r="4.5" fill="#0A1330"></circle></svg></div><div style="font-size: 15px; font-weight: 800; letter-spacing: 0.08em; color: #4F5B7D">03</div></div>
+<h3 style="margin: 0; font-size: 21px; line-height: 1.3; font-weight: 700">Wofür Du wirklich haftest</h3>
+<p style="margin: 0; font-size: 16px; line-height: 1.55; color: #4F5B7D">Du verstehst, welche Verantwortung Dein Unternehmen trägt, auch wenn die KI von einem externen Anbieter stammt, und wie Du rechtliche Fallstricke frühzeitig erkennst.</p>
+</div>
+<div class="gv-card gv-rise" style="background: #FFFFFF; border-radius: 20px; padding: 28px; display: flex; flex-direction: column; gap: 12px; box-shadow: 0 18px 40px -28px rgba(10, 19, 48, 0.3)">
+<div style="display: flex; align-items: center; justify-content: space-between"><div style="width: 68px; height: 68px; border-radius: 18px; background: #EEF3FD; display: flex; align-items: center; justify-content: center"><svg width="46" height="46" viewBox="0 0 64 64" aria-hidden="true"><path d="M10 16v30c0 4.4 8 8 18 8s18-3.600 18-8V16" fill="#DDE5FA" stroke="#1D4ED8" stroke-width="3"></path><ellipse cx="28" cy="16" rx="18" ry="8" fill="#FFFFFF" stroke="#1D4ED8" stroke-width="3"></ellipse><path d="M10 31c0 4.400 8 8 18 8s18-3.600 18-8" fill="none" stroke="#1D4ED8" stroke-width="3"></path><g class="gv-blink"><path d="M41 42v-5a6 6 0 0 1 12 0v5" fill="none" stroke="#0A1330" stroke-width="3.500" stroke-linecap="round"></path><rect x="36" y="42" width="22" height="17" rx="4" fill="#E4C255"></rect><circle cx="47" cy="50.5" r="2.500" fill="#0A1330"></circle></g></svg></div><div style="font-size: 15px; font-weight: 800; letter-spacing: 0.08em; color: #4F5B7D">04</div></div>
+<h3 style="margin: 0; font-size: 21px; line-height: 1.3; font-weight: 700">Welche Daten Du einer KI anvertrauen darfst</h3>
+<p style="margin: 0; font-size: 16px; line-height: 1.55; color: #4F5B7D">Du siehst, wie Du Datenschutzverstöße vermeidest, vertrauliche Informationen schützt und Deine Systeme gegen Angriffe absicherst.</p>
+</div>
+<div class="gv-card gv-rise" style="background: #FFFFFF; border-radius: 20px; padding: 28px; display: flex; flex-direction: column; gap: 12px; box-shadow: 0 18px 40px -28px rgba(10, 19, 48, 0.3)">
+<div style="display: flex; align-items: center; justify-content: space-between"><div style="width: 68px; height: 68px; border-radius: 18px; background: #EEF3FD; display: flex; align-items: center; justify-content: center"><svg width="46" height="46" viewBox="0 0 64 64" aria-hidden="true"><path d="M8 46a24 24 0 0 1 48 0" fill="none" stroke="#DDE5FA" stroke-width="8" stroke-linecap="round"></path><path d="M8 46a24 24 0 0 1 24-24" fill="none" stroke="#1D4ED8" stroke-width="8" stroke-linecap="round"></path><path d="M32 46V25" stroke="#0A1330" stroke-width="4" stroke-linecap="round" class="gv-needle"></path><circle cx="32" cy="46" r="6" fill="#E4C255" stroke="#0A1330" stroke-width="3"></circle></svg></div><div style="font-size: 15px; font-weight: 800; letter-spacing: 0.08em; color: #4F5B7D">05</div></div>
+<h3 style="margin: 0; font-size: 21px; line-height: 1.3; font-weight: 700">Wie Du die Kontrolle über Deine KI behältst</h3>
+<p style="margin: 0; font-size: 16px; line-height: 1.55; color: #4F5B7D">Du lernst, wie Du Fehler Deiner KI frühzeitig bemerkst, ihre Entscheidungen nachvollziehbar machst und im Ernstfall rechtzeitig eingreifst.</p>
+</div>
+<div class="gv-card gv-rise" style="background: #FFFFFF; border-radius: 20px; padding: 28px; display: flex; flex-direction: column; gap: 12px; box-shadow: 0 18px 40px -28px rgba(10, 19, 48, 0.3)">
+<div style="display: flex; align-items: center; justify-content: space-between"><div style="width: 68px; height: 68px; border-radius: 18px; background: #EEF3FD; display: flex; align-items: center; justify-content: center"><svg width="46" height="46" viewBox="0 0 64 64" aria-hidden="true"><path d="M8 52l15-15 10 7 20-26" fill="none" stroke="#1D4ED8" stroke-width="4.500" stroke-linecap="round" stroke-linejoin="round"></path><path d="M42 16h12v12" fill="none" stroke="#1D4ED8" stroke-width="4.500" stroke-linecap="round" stroke-linejoin="round"></path><path d="M8 58h48" stroke="#AEC2EC" stroke-width="3" stroke-linecap="round"></path><path class="gv-blink" d="M17 6l2.600 6.400L26 15l-6.400 2.600L17 24l-2.600-6.400L8 15l6.400-2.600z" fill="#E4C255"></path></svg></div><div style="font-size: 15px; font-weight: 800; letter-spacing: 0.08em; color: #4F5B7D">06</div></div>
+<h3 style="margin: 0; font-size: 21px; line-height: 1.3; font-weight: 700">Wie Du KI mit gutem Gefühl voll ausschöpfst</h3>
+<p style="margin: 0; font-size: 16px; line-height: 1.55; color: #4F5B7D">Du setzt KI mit einem klaren Plan ein, nutzt ihre Chancen ohne Angst vor rechtlichen Folgen und sicherst Dir einen Vorsprung, den Deine Konkurrenz so schnell nicht aufholt.</p>
+</div>
+</div>
+<div style="display: flex; flex-direction: column; align-items: center; gap: 12px; padding-top: 8px">
+<a href="#freischalten" data-optin class="gv-cta" style="display: inline-flex; align-items: center; gap: 12px; min-height: 60px; box-sizing: border-box; padding: 16px 30px; border-radius: 999px; background: #1D4ED8; color: #FFFFFF; font-size: 18px; font-weight: 700; text-decoration: none; box-shadow: 0 14px 28px -14px rgba(10, 19, 48, 0.45)">Hier klicken und kostenfreies Video freischalten!<svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"></path></svg></a>
+<div style="font-size: 14px; color: #4F5B7D">Kostenfrei · Sofort ansehen</div>
+</div>
+</div>
+</section>
+
+<section style="min-height: 340px; box-sizing: border-box; padding: 72px 32px; background: linear-gradient(120deg, #020617 0%, #0C2F6B 34%, #1D4ED8 80%, #38BDF8 118%); display: flex; align-items: center">
+<div style="max-width: 1120px; width: 100%; margin: 0 auto; display: flex; flex-wrap: wrap; align-items: center; gap: 32px 48px">
+<div style="flex: 999 1 480px; min-width: 0; display: flex; flex-direction: column; gap: 18px">
+<div style="font-size: 12px; font-weight: 600; letter-spacing: 0.22em; text-transform: uppercase; color: #E4C255">Der größte Denkfehler beim Einsatz von KI im Unternehmen</div>
+<div style="max-width: 720px; font-size: 34px; line-height: 1.3; font-weight: 700; color: #FFFFFF; letter-spacing: -0.5px; text-wrap: balance">Ein funktionierendes KI-System ist automatisch ein sicheres, rechtskonformes oder wirtschaftlich sinnvolles KI-System.</div>
+</div>
+<div aria-hidden="true" style="flex: 1 1 300px; max-width: 340px; height: 290px; position: relative">
+<svg width="220" height="220" viewBox="0 0 220 220" style="position: absolute; left: 50%; top: 50%; margin: -110px 0 0 -110px"><circle class="gv-spin" cx="110" cy="110" r="100" fill="none" stroke="#FFFFFF" stroke-opacity="0.55" stroke-width="2" stroke-dasharray="6 10"></circle><circle class="gv-spinr" cx="110" cy="110" r="74" fill="none" stroke="#FFFFFF" stroke-opacity="0.45" stroke-width="1.500" stroke-dasharray="2 9"></circle><g class="gv-orbit"><circle cx="110" cy="10" r="7" fill="#E4C255"></circle></g><g class="gv-orbit2"><circle cx="184" cy="110" r="4.500" fill="#FFFFFF"></circle><circle cx="36" cy="110" r="3" fill="#E4C255"></circle></g></svg>
+<div style="position: absolute; left: 50%; top: 50%; width: 112px; height: 112px; margin: -56px 0 0 -56px; border-radius: 999px; background: #FFFFFF; display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 2px"><span class="gv-pulse" style="position: absolute; inset: 0; border-radius: 999px; border: 2px solid #FFFFFF"></span><span class="gv-pulse2" style="position: absolute; inset: 0; border-radius: 999px; border: 2px solid #FFFFFF"></span><svg class="gv-pop" width="34" height="34" viewBox="0 0 24 24" fill="none" stroke="#1D4ED8" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><path class="gv-draw" d="M5 12.5l4.5 4.5L19 7.5"></path></svg><div style="font-size: 13px; font-weight: 700; color: #0A1330">Funktioniert</div></div>
+<div class="gv-float" style="position: absolute; left: 0; top: 36px; padding: 7px 14px; border-radius: 999px; background: #0A1330; color: #FFFFFF; font-size: 14px; font-weight: 600">Sicher&nbsp;<span class="gv-q" style="color: #E4C255; font-weight: 800">?</span></div>
+<div class="gv-float2" style="position: absolute; right: -50px; top: 36px; padding: 7px 14px; border-radius: 999px; background: #0A1330; color: #FFFFFF; font-size: 14px; font-weight: 600">Rechtskonform&nbsp;<span class="gv-q" style="color: #E4C255; font-weight: 800; animation-delay: .45s">?</span></div>
+<div class="gv-float" style="position: absolute; left: 50%; bottom: 0; translate: -50% 0; white-space: nowrap; padding: 7px 14px; border-radius: 999px; background: #0A1330; color: #FFFFFF; font-size: 14px; font-weight: 600; animation-delay: 1.5s">Wirtschaftlich sinnvoll&nbsp;<span class="gv-q" style="color: #E4C255; font-weight: 800; animation-delay: .9s">?</span></div>
+</div>
+</div>
+</section>
+
+<section style="min-height: 880px; box-sizing: border-box; padding: 96px 0; background: #FFFFFF">
+<div style="max-width: 1120px; margin: 0 auto; padding: 0 32px; display: flex; flex-direction: column; gap: 40px">
+<div style="display: flex; flex-direction: column; gap: 12px; max-width: 800px">
+<div style="font-size: 12px; font-weight: 600; letter-spacing: 0.2em; text-transform: uppercase; color: #1D4ED8">EU AI Act: Die 4 Risikostufen</div>
+<h2 style="margin: 0; font-size: 40px; line-height: 1.08; font-weight: 800; letter-spacing: -1px; text-wrap: balance">Nicht jede KI ist gleich riskant. Aber weißt Du, welche Regeln für Deine KI-Systeme gelten?</h2>
+<p style="margin: 0; font-size: 18px; line-height: 1.6; color: #4F5B7D">Der EU AI Act behandelt nicht jede KI-Anwendung gleich. Welche Anforderungen gelten, hängt davon ab, wofür Du ein System einsetzt.</p>
+</div>
+<div style="display: flex; flex-wrap: wrap; gap: 32px; align-items: stretch">
+<div style="flex: 1 1 480px; min-width: 0; display: flex; flex-direction: column; gap: 10px">
+<div style="font-size: 20px; line-height: 1.35; font-weight: 700; margin-bottom: 16px">Ein Tool, vier mögliche Einstufungen: Entscheidend ist, wofür Du ChatGPT, Claude und Co. einsetzt.</div>
+
+<div class="gv-wipe" style="display: flex; align-items: stretch; border-radius: 16px; overflow: hidden; border: 1px solid #DDE5FA; background: #FFFFFF">
+<div style="flex: none; width: 56px; background: #0A1330; color: #FFFFFF; font-size: 20px; font-weight: 800; display: flex; align-items: center; justify-content: center">1</div>
+<div style="padding: 14px 18px; display: flex; flex-direction: column; gap: 4px"><div style="display: flex; flex-wrap: wrap; align-items: baseline; gap: 4px 12px"><div style="font-size: 19px; font-weight: 800">Verboten</div><div style="font-size: 13px; font-weight: 600; color: #4F5B7D">Unannehmbares Risiko</div></div><div style="font-size: 15px; line-height: 1.45; color: #0A1330">Bestimmte KI-Anwendungen sind verboten, weil sie Grundrechte und Sicherheit gefährden.</div><div style="font-size: 14px; line-height: 1.45; color: #4F5B7D">Egal, wie gut das Tool technisch funktioniert.</div></div>
+</div>
+<div class="gv-wipe" style="display: flex; align-items: stretch; border-radius: 16px; overflow: hidden; border: 1px solid #DDE5FA; background: #FFFFFF">
+<div style="flex: none; width: 56px; background: #1D4ED8; color: #FFFFFF; font-size: 20px; font-weight: 800; display: flex; align-items: center; justify-content: center">2</div>
+<div style="padding: 14px 18px; display: flex; flex-direction: column; gap: 4px"><div style="display: flex; flex-wrap: wrap; align-items: baseline; gap: 4px 12px"><div style="font-size: 19px; font-weight: 800">Strenge Auflagen</div><div style="font-size: 13px; font-weight: 600; color: #4F5B7D">Hohes Risiko</div></div><div style="font-size: 15px; line-height: 1.45; color: #0A1330">Du lässt die KI Bewerbungen analysieren und Kandidaten bewerten.</div><div style="font-size: 14px; line-height: 1.45; color: #4F5B7D">Plötzlich können umfangreiche Pflichten für Dokumentation, Überwachung und menschliche Kontrolle gelten.</div></div>
+</div>
+<div class="gv-wipe" style="display: flex; align-items: stretch; border-radius: 16px; overflow: hidden; border: 1px solid #DDE5FA; background: #FFFFFF">
+<div style="flex: none; width: 56px; background: #AEC2EC; color: #0A1330; font-size: 20px; font-weight: 800; display: flex; align-items: center; justify-content: center">3</div>
+<div style="padding: 14px 18px; display: flex; flex-direction: column; gap: 4px"><div style="display: flex; flex-wrap: wrap; align-items: baseline; gap: 4px 12px"><div style="font-size: 19px; font-weight: 800">Kennzeichnungspflicht</div><div style="font-size: 13px; font-weight: 600; color: #4F5B7D">Begrenztes Risiko</div></div><div style="font-size: 15px; line-height: 1.45; color: #0A1330">Du setzt die KI als Chatbot ein, der Kundenfragen auf Deiner Website beantwortet.</div><div style="font-size: 14px; line-height: 1.45; color: #4F5B7D">Deine Kunden müssen erkennen können, dass sie mit einer KI kommunizieren.</div></div>
+</div>
+<div class="gv-wipe" style="display: flex; align-items: stretch; border-radius: 16px; overflow: hidden; border: 1px solid #DDE5FA; background: #FFFFFF">
+<div style="flex: none; width: 56px; background: #DDE5FA; color: #0A1330; font-size: 20px; font-weight: 800; display: flex; align-items: center; justify-content: center">4</div>
+<div style="padding: 14px 18px; display: flex; flex-direction: column; gap: 4px"><div style="display: flex; flex-wrap: wrap; align-items: baseline; gap: 4px 12px"><div style="font-size: 19px; font-weight: 800">Kein Freifahrtschein</div><div style="font-size: 13px; font-weight: 600; color: #4F5B7D">Minimales Risiko</div></div><div style="font-size: 15px; line-height: 1.45; color: #0A1330">Du und Dein Team nutzt ChatGPT oder Claude für Texte, Auswertungen und Kundenanfragen.</div><div style="font-size: 14px; line-height: 1.45; color: #4F5B7D">Datenschutz, Urheberrecht und Deine Verträge gelten trotzdem. Sobald Kundendaten oder Geschäftsgeheimnisse im Prompt landen, wird es kritisch.</div></div>
+</div>
+</div>
+<div style="flex: 1 1 400px; min-width: 0; display: flex; flex-direction: column; gap: 16px">
+<div style="font-size: 20px; line-height: 1.35; font-weight: 700; margin-bottom: 10px">Drei Situationen aus dem Alltag, in denen genau das schiefgeht:</div>
+
+<div style="background: #F7FAFE; border: 1px solid #DDE5FA; border-radius: 20px; padding: 24px; display: flex; flex-direction: column; gap: 8px">
+<div style="font-size: 12px; font-weight: 600; letter-spacing: 0.18em; text-transform: uppercase; color: #1D4ED8">Situation im Vertrieb</div>
+<div style="font-size: 18px; font-weight: 700">Ein Mitarbeiter kopiert Gesprächsnotizen mit Kundendaten in ein öffentliches KI-Tool.</div>
+<div style="font-size: 16px; color: #4F5B7D"><strong style="color: #0A1330">Das Problem:</strong> Die Zusammenfassung ist hervorragend, aber niemand hat geprüft, ob diese Daten dort überhaupt verarbeitet werden dürfen.</div>
+</div>
+<div style="background: #F7FAFE; border: 1px solid #DDE5FA; border-radius: 20px; padding: 24px; display: flex; flex-direction: column; gap: 8px">
+<div style="font-size: 12px; font-weight: 600; letter-spacing: 0.18em; text-transform: uppercase; color: #1D4ED8">Situation im Kundenservice</div>
+<div style="font-size: 18px; font-weight: 700">Dein Chatbot nennt tagelang Preise, die nicht mehr aktuell sind.</div>
+<div style="font-size: 16px; color: #4F5B7D"><strong style="color: #0A1330">Das Problem:</strong> Ohne Kontrolle bemerkt es niemand, und Deine Kunden verlassen sich auf falsche Zusagen.</div>
+</div>
+<div style="background: #F7FAFE; border: 1px solid #DDE5FA; border-radius: 20px; padding: 24px; display: flex; flex-direction: column; gap: 8px">
+<div style="font-size: 12px; font-weight: 600; letter-spacing: 0.18em; text-transform: uppercase; color: #1D4ED8">Situation beim Tool-Einkauf</div>
+<div style="font-size: 18px; font-weight: 700">Dein Anbieter versichert, dass seine KI-Software alle gesetzlichen Anforderungen erfüllt.</div>
+<div style="font-size: 16px; color: #4F5B7D"><strong style="color: #0A1330">Das Problem:</strong> Die Verantwortung endet nicht beim Hersteller. Auch Dein Einsatz kann eigene Pflichten auslösen.</div>
+</div>
+<div style="background: #0A1330; color: #FFFFFF; border-radius: 20px; padding: 24px; display: flex; flex-direction: column; gap: 14px">
+<div style="font-size: 20px; line-height: 1.35; font-weight: 700; text-wrap: pretty">Weißt Du, in welche Risikokategorie Deine KI-Anwendungen fallen und welche Pflichten sich daraus ergeben?</div>
+<a href="#freischalten" data-optin style="display: inline-flex; align-items: center; gap: 8px; min-height: 44px; color: #E4C255; font-size: 16px; font-weight: 700; text-decoration: none">Im Video ordnen wir das ein<svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"></path></svg></a>
+</div>
+</div>
+</div>
+</div>
+</section>
+
+<section style="min-height: 860px; box-sizing: border-box; padding: 96px 0; background: #F7FAFE">
+<div style="max-width: 1120px; margin: 0 auto; padding: 0 32px; display: flex; flex-direction: column; gap: 40px">
+<div style="display: flex; flex-direction: column; gap: 12px">
+<div style="font-size: 12px; font-weight: 600; letter-spacing: 0.2em; text-transform: uppercase; color: #1D4ED8">Was sich nach diesem Video für Dich ändert</div>
+<h2 style="margin: 0; font-size: 40px; line-height: 1.08; font-weight: 800; letter-spacing: -1px">Vom KI-Blindflug zum klaren Fahrplan.</h2>
+</div>
+<div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(min(420px, 100%), 1fr)); gap: 20px">
+<div style="background: #FFFFFF; border-radius: 20px; padding: 28px; display: flex; flex-direction: column; gap: 14px; box-shadow: 0 18px 40px -28px rgba(10, 19, 48, 0.3)">
+<div style="font-size: 12px; font-weight: 600; letter-spacing: 0.2em; text-transform: uppercase; color: #4F5B7D">Deine Situation vor dem Video</div>
+<div style="display: flex; gap: 12px; font-size: 16px; color: #4F5B7D"><span aria-hidden="true">&ndash;</span><div>In Deinem Unternehmen laufen längst KI-Tools, aber niemand hat den vollen Überblick, welche.</div></div><div style="display: flex; gap: 12px; font-size: 16px; color: #4F5B7D"><span aria-hidden="true">&ndash;</span><div>Du bist nicht sicher, ob und wie stark Dich der EU AI Act überhaupt betrifft.</div></div><div style="display: flex; gap: 12px; font-size: 16px; color: #4F5B7D"><span aria-hidden="true">&ndash;</span><div>Dein Team gibt Daten in ChatGPT und andere Tools ein, ohne dass es dafür klare Regeln gibt.</div></div><div style="display: flex; gap: 12px; font-size: 16px; color: #4F5B7D"><span aria-hidden="true">&ndash;</span><div>Du verlässt Dich darauf, dass sich der Anbieter schon um Recht und Sicherheit kümmert.</div></div><div style="display: flex; gap: 12px; font-size: 16px; color: #4F5B7D"><span aria-hidden="true">&ndash;</span><div>Bei jedem neuen Tool fängst Du mit denselben offenen Fragen wieder von vorne an.</div></div>
+</div>
+<div style="background: #FFFFFF; border-radius: 20px; padding: 28px; display: flex; flex-direction: column; gap: 14px; border: 1.5px solid #1D4ED8">
+<div style="font-size: 12px; font-weight: 600; letter-spacing: 0.2em; text-transform: uppercase; color: #1D4ED8">Deine Situation nach dem Video</div>
+<div style="display: flex; gap: 12px; font-size: 16px; font-weight: 500"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#1D4ED8" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" style="flex: none; margin-top: 3px"><path d="M5 12.5l4.5 4.5L19 7.5"></path></svg><div>Du weißt, wo KI Deinem Unternehmen echten Nutzen bringt und wo Du nur Zeit und Geld verlierst.</div></div><div style="display: flex; gap: 12px; font-size: 16px; font-weight: 500"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#1D4ED8" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" style="flex: none; margin-top: 3px"><path d="M5 12.5l4.5 4.5L19 7.5"></path></svg><div>Du kennst die Risikostufen des EU AI Act und weißt, worauf es bei der Einordnung Deiner Anwendungen ankommt.</div></div><div style="display: flex; gap: 12px; font-size: 16px; font-weight: 500"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#1D4ED8" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" style="flex: none; margin-top: 3px"><path d="M5 12.5l4.5 4.5L19 7.5"></path></svg><div>Du weißt, welche Daten Du einer KI anvertrauen darfst und welche Regeln Dein Team dafür braucht.</div></div><div style="display: flex; gap: 12px; font-size: 16px; font-weight: 500"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#1D4ED8" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" style="flex: none; margin-top: 3px"><path d="M5 12.5l4.5 4.5L19 7.5"></path></svg><div>Du verstehst, welche Verantwortung bei Dir bleibt, auch wenn die KI von einem externen Anbieter stammt.</div></div><div style="display: flex; gap: 12px; font-size: 16px; font-weight: 500"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#1D4ED8" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" style="flex: none; margin-top: 3px"><path d="M5 12.5l4.5 4.5L19 7.5"></path></svg><div>Du hast einen Fahrplan in fünf Schritten, an dem Du Dich bei jeder neuen KI-Anwendung orientierst.</div></div>
+</div>
+</div>
+<div style="display: flex; flex-direction: column; gap: 16px">
+<div style="font-size: 20px; font-weight: 700">Im Video: Der 5-Schritte-Fahrplan für Deinen strukturierten KI-Einsatz</div>
+<div aria-hidden="true" style="position: relative; height: 18px; margin: 0 24px">
+<svg width="100%" height="18" style="display: block"><line class="gv-dash" x1="0" y1="9" x2="100%" y2="9" stroke="#1D4ED8" stroke-width="2"></line></svg>
+<div class="gv-travel" style="position: absolute; top: 1px; width: 16px; height: 16px; margin-left: -8px; box-sizing: border-box; border-radius: 999px; background: #E4C255; border: 3px solid #0A1330"></div>
+</div>
+<div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(min(180px, 100%), 1fr)); gap: 12px">
+<div class="gv-rise" style="background: #0A1330; color: #FFFFFF; border-radius: 16px; padding: 20px; display: flex; flex-direction: column; gap: 8px"><div style="font-size: 14px; font-weight: 700; color: #E4C255">Schritt 1</div><div style="font-size: 17px; line-height: 1.3; font-weight: 600">Finde die KI, die sich für Dich rechnet</div><div style="font-size: 14px; line-height: 1.45; color: #DDE5FA">Statt Zeit und Geld in das falsche Tool zu stecken.</div></div><div class="gv-rise" style="background: #0A1330; color: #FFFFFF; border-radius: 16px; padding: 20px; display: flex; flex-direction: column; gap: 8px"><div style="font-size: 14px; font-weight: 700; color: #E4C255">Schritt 2</div><div style="font-size: 17px; line-height: 1.3; font-weight: 600">Erkenne, welche Regeln für Dich gelten</div><div style="font-size: 14px; line-height: 1.45; color: #DDE5FA">Bevor aus einem nützlichen Tool eine Abmahnung oder ein Bußgeld wird.</div></div><div class="gv-rise" style="background: #0A1330; color: #FFFFFF; border-radius: 16px; padding: 20px; display: flex; flex-direction: column; gap: 8px"><div style="font-size: 14px; font-weight: 700; color: #E4C255">Schritt 3</div><div style="font-size: 17px; line-height: 1.3; font-weight: 600">Kläre, wofür Du wirklich haftest</div><div style="font-size: 14px; line-height: 1.45; color: #DDE5FA">Auch dann, wenn die KI von einem externen Anbieter stammt.</div></div><div class="gv-rise" style="background: #0A1330; color: #FFFFFF; border-radius: 16px; padding: 20px; display: flex; flex-direction: column; gap: 8px"><div style="font-size: 14px; font-weight: 700; color: #E4C255">Schritt 4</div><div style="font-size: 17px; line-height: 1.3; font-weight: 600">Schütze Deine Unternehmensdaten</div><div style="font-size: 14px; line-height: 1.45; color: #DDE5FA">Damit vertrauliche Informationen nicht in der falschen KI landen.</div></div><div class="gv-rise" style="background: #0A1330; color: #FFFFFF; border-radius: 16px; padding: 20px; display: flex; flex-direction: column; gap: 8px"><div style="font-size: 14px; font-weight: 700; color: #E4C255">Schritt 5</div><div style="font-size: 17px; line-height: 1.3; font-weight: 600">Behalte jederzeit die Kontrolle</div><div style="font-size: 14px; line-height: 1.45; color: #DDE5FA">Damit Du Fehler Deiner KI bemerkst, bevor sie teuer werden.</div></div>
+</div>
+</div>
+</div>
+</section>
+
+<section style="min-height: 400px; box-sizing: border-box; padding: 80px 0; background: linear-gradient(120deg, #020617 0%, #0C2F6B 34%, #1D4ED8 80%, #38BDF8 118%); display: flex; align-items: center">
+<div style="max-width: 1120px; width: 100%; box-sizing: border-box; margin: 0 auto; padding: 0 32px; display: flex; flex-wrap: wrap; gap: 40px 64px; align-items: center">
+<div style="flex: 1 1 400px; min-width: 0; display: flex; flex-direction: column; align-items: flex-start; gap: 16px">
+<div style="font-size: 12px; font-weight: 600; letter-spacing: 0.2em; text-transform: uppercase; color: #E4C255">F&uuml;r wen ist das Video?</div>
+<h2 style="margin: 0; font-size: 40px; line-height: 1.08; font-weight: 800; letter-spacing: -1px; color: #FFFFFF; text-wrap: balance">Für alle, die KI nicht nur testen, sondern belastbar einsetzen wollen.</h2>
+<a href="#freischalten" data-optin style="display: inline-flex; align-items: center; min-height: 52px; box-sizing: border-box; padding: 14px 26px; border-radius: 999px; background: #E4C255; color: #0A1330; font-size: 17px; font-weight: 700; text-decoration: none">Kostenfreies Video freischalten</a>
+</div>
+<div style="flex: 1 1 400px; min-width: 0; max-width: 500px; box-sizing: border-box; display: flex; flex-direction: column; gap: 16px; padding: 28px; border-radius: 20px; background: #0A1330; font-size: 17px; font-weight: 500; color: #FFFFFF">
+<div style="display: flex; gap: 12px"><svg width="22" height="22" viewBox="0 0 24 24" aria-hidden="true" style="flex: none; margin-top: 2px"><circle cx="12" cy="12" r="11" fill="#E4C255"></circle><path d="M7 12.5l3.2 3.2L17 9" fill="none" stroke="#0A1330" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"></path></svg><div>Unternehmer, Geschäftsführer und Führungskräfte</div></div><div style="display: flex; gap: 12px"><svg width="22" height="22" viewBox="0 0 24 24" aria-hidden="true" style="flex: none; margin-top: 2px"><circle cx="12" cy="12" r="11" fill="#E4C255"></circle><path d="M7 12.5l3.2 3.2L17 9" fill="none" stroke="#0A1330" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"></path></svg><div>Verantwortliche aus Marketing, Vertrieb, HR, IT oder Kundenservice</div></div><div style="display: flex; gap: 12px"><svg width="22" height="22" viewBox="0 0 24 24" aria-hidden="true" style="flex: none; margin-top: 2px"><circle cx="12" cy="12" r="11" fill="#E4C255"></circle><path d="M7 12.5l3.2 3.2L17 9" fill="none" stroke="#0A1330" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"></path></svg><div>Teams, die KI-Projekte technisch, organisatorisch oder rechtlich begleiten</div></div><div style="display: flex; gap: 12px"><svg width="22" height="22" viewBox="0 0 24 24" aria-hidden="true" style="flex: none; margin-top: 2px"><circle cx="12" cy="12" r="11" fill="#E4C255"></circle><path d="M7 12.5l3.2 3.2L17 9" fill="none" stroke="#0A1330" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"></path></svg><div>Alle, die bisher nur ChatGPT oder wenige andere KI-Anwendungen nutzen</div></div>
+</div>
+</div>
+</section>
+
+<section style="min-height: 800px; box-sizing: border-box; padding: 96px 0; background: #FFFFFF">
+<div style="max-width: 1120px; margin: 0 auto; padding: 0 32px; display: flex; flex-direction: column; gap: 40px">
+<div style="display: flex; flex-direction: column; gap: 12px; max-width: 720px">
+<div style="font-size: 12px; font-weight: 600; letter-spacing: 0.2em; text-transform: uppercase; color: #1D4ED8">Wer Dir das erkl&auml;rt</div>
+<h2 style="margin: 0; font-size: 40px; line-height: 1.08; font-weight: 800; letter-spacing: -1px; text-wrap: balance">Drei Experten. Ein Kompetenzfeld pro Person.</h2>
+</div>
+<div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(min(300px, 100%), 1fr)); gap: 20px">
+
+<div class="gv-card gv-rise" style="background: #F7FAFE; border: 1px solid #DDE5FA; border-radius: 20px; overflow: hidden; display: flex; flex-direction: column">
+<img src="https://a.storyblok.com/f/296767220187637/13238/6c72a83e94/michael-truch.webp" alt="M.Sc. Michael Truch" style="height: 260px; width: 100%; object-fit: cover; display: block" />
+<div style="padding: 24px; display: flex; flex-direction: column; gap: 6px">
+<div style="font-size: 20px; font-weight: 700">M.Sc. Michael Truch</div>
+<div style="font-size: 15px; font-weight: 600; color: #1D4ED8">KI-Strategie &amp; Business</div>
+<div style="font-size: 15px; line-height: 1.55; color: #4F5B7D; padding-top: 6px">Gründer und CEO mehrerer erfolgreicher Unternehmen mit jahrelanger Erfahrung in der praktischen KI-Implementierung.</div>
+</div>
+</div>
+<div class="gv-card gv-rise" style="background: #F7FAFE; border: 1px solid #DDE5FA; border-radius: 20px; overflow: hidden; display: flex; flex-direction: column">
+<img src="https://a.storyblok.com/f/296767220187637/14122/085c251bd2/dominik-herzog.webp" alt="Dr. Dominik Herzog" style="height: 260px; width: 100%; object-fit: cover; display: block" />
+<div style="padding: 24px; display: flex; flex-direction: column; gap: 6px">
+<div style="font-size: 20px; font-weight: 700">Dr. Dominik Herzog</div>
+<div style="font-size: 15px; font-weight: 600; color: #1D4ED8">KI-Recht &amp; Regulierung</div>
+<div style="font-size: 15px; line-height: 1.55; color: #4F5B7D; padding-top: 6px">Rechtsanwalt für Wirtschafts- und Medienrecht. Übersetzt komplexe KI-Verordnungen in klare Handlungsempfehlungen.</div>
+</div>
+</div>
+<div class="gv-card gv-rise" style="background: #F7FAFE; border: 1px solid #DDE5FA; border-radius: 20px; overflow: hidden; display: flex; flex-direction: column">
+<img src="https://a.storyblok.com/f/296767220187637/9666/02fdfe07e5/heiko-maniero.webp" alt="Prof. Dr. Heiko Jonny Maniero" style="height: 260px; width: 100%; object-fit: cover; display: block" />
+<div style="padding: 24px; display: flex; flex-direction: column; gap: 6px">
+<div style="font-size: 20px; font-weight: 700">Prof. Dr. Heiko Jonny Maniero</div>
+<div style="font-size: 15px; font-weight: 600; color: #1D4ED8">Datenschutz &amp; DSGVO</div>
+<div style="font-size: 15px; line-height: 1.55; color: #4F5B7D; padding-top: 6px">Führender Experte für Datenschutz. Zeigt, wie sich KI-Tools einsetzen lassen, ohne in Datenschutzfallen zu tappen.</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+
+<section style="min-height: 420px; box-sizing: border-box; padding: 80px 0; background: #F7FAFE">
+<div style="max-width: 1120px; margin: 0 auto; padding: 0 32px; display: flex; flex-direction: column; gap: 32px">
+<div style="display: flex; flex-direction: column; gap: 12px">
+<div style="font-size: 12px; font-weight: 600; letter-spacing: 0.2em; text-transform: uppercase; color: #1D4ED8">Erfahrungen</div>
+<h2 style="margin: 0; font-size: 40px; line-height: 1.08; font-weight: 800; letter-spacing: -1px">Was unsere Teilnehmer sagen.</h2>
+</div>
+<div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(min(300px, 100%), 1fr)); gap: 20px">
+<div style="min-height: 140px; box-sizing: border-box; border: 1.5px dashed #AEC2EC; border-radius: 20px; padding: 24px; display: flex; align-items: center; justify-content: center; text-align: center; font-size: 15px; color: #4F5B7D">[ECHTE KUNDENSTIMME 1 mit Name, Funktion und Unternehmen]</div><div style="min-height: 140px; box-sizing: border-box; border: 1.5px dashed #AEC2EC; border-radius: 20px; padding: 24px; display: flex; align-items: center; justify-content: center; text-align: center; font-size: 15px; color: #4F5B7D">[ECHTE KUNDENSTIMME 2 mit Name, Funktion und Unternehmen]</div><div style="min-height: 140px; box-sizing: border-box; border: 1.5px dashed #AEC2EC; border-radius: 20px; padding: 24px; display: flex; align-items: center; justify-content: center; text-align: center; font-size: 15px; color: #4F5B7D">[ECHTE KUNDENSTIMME 3 mit Name, Funktion und Unternehmen]</div>
+</div>
+</div>
+</section>
+
+<section style="min-height: 680px; box-sizing: border-box; padding: 96px 0; background: #FFFFFF">
+<div style="max-width: 800px; margin: 0 auto; padding: 0 32px; display: flex; flex-direction: column; gap: 32px">
+<div style="display: flex; flex-direction: column; gap: 12px">
+<div style="font-size: 12px; font-weight: 600; letter-spacing: 0.2em; text-transform: uppercase; color: #1D4ED8">Noch unsicher?</div>
+<h2 style="margin: 0; font-size: 40px; line-height: 1.08; font-weight: 800; letter-spacing: -1px">Häufig gestellte Fragen.</h2>
+</div>
+<div style="display: flex; flex-direction: column">
+
+<div style="border-top: 1px solid #DDE5FA; padding: 20px 0; display: flex; flex-direction: column; gap: 10px">
+<div style="display: flex; justify-content: space-between; gap: 16px; font-size: 19px; font-weight: 700"><div>Wir haben doch bereits eine IT-Abteilung und eine Rechtsberatung. Wofür brauche ich das?</div><div aria-hidden="true" style="color: #1D4ED8">&ndash;</div></div>
+<div style="font-size: 16px; line-height: 1.6; color: #4F5B7D; max-width: 660px">Beide bleiben wichtige Ansprechpartner. Du lernst, wie die technischen, wirtschaftlichen und rechtlichen Anforderungen zusammenhängen. Dadurch stellst Du die richtigen Fragen und kannst besser einschätzen, wann Du welche Fachleute einbeziehen solltest.</div>
+</div><div style="border-top: 1px solid #DDE5FA; padding: 20px 0; display: flex; justify-content: space-between; gap: 16px; font-size: 19px; font-weight: 700"><div>Ist das nicht zu technisch oder zu juristisch für mich?</div><div aria-hidden="true" style="color: #1D4ED8">+</div></div><div style="border-top: 1px solid #DDE5FA; padding: 20px 0; display: flex; justify-content: space-between; gap: 16px; font-size: 19px; font-weight: 700"><div>Wir nutzen bisher nur ChatGPT. Brauche ich dieses Wissen überhaupt schon?</div><div aria-hidden="true" style="color: #1D4ED8">+</div></div><div style="border-top: 1px solid #DDE5FA; padding: 20px 0; display: flex; justify-content: space-between; gap: 16px; font-size: 19px; font-weight: 700"><div>Der EU AI Act betrifft uns doch wahrscheinlich gar nicht stark, oder?</div><div aria-hidden="true" style="color: #1D4ED8">+</div></div><div style="border-top: 1px solid #DDE5FA; border-bottom: 1px solid #DDE5FA; padding: 20px 0; display: flex; justify-content: space-between; gap: 16px; font-size: 19px; font-weight: 700"><div>Ist das Video wirklich kostenfrei?</div><div aria-hidden="true" style="color: #1D4ED8">+</div></div>
+</div>
+</div>
+</section>
+
+<section style="min-height: 420px; box-sizing: border-box; padding: 88px 32px; background: linear-gradient(120deg, #020617 0%, #0C2F6B 34%, #1D4ED8 80%, #38BDF8 118%); display: flex; align-items: center; justify-content: center">
+<div style="max-width: 760px; display: flex; flex-direction: column; align-items: center; gap: 22px; text-align: center">
+<h2 style="margin: 0; font-size: 44px; line-height: 1.1; font-weight: 800; letter-spacing: -1px; color: #FFFFFF; text-wrap: balance">Setze KI nicht einfach nur ein. Verstehe, worauf es wirklich ankommt!</h2>
+<a href="#freischalten" data-optin class="gv-cta" style="display: inline-flex; align-items: center; gap: 12px; min-height: 60px; box-sizing: border-box; padding: 16px 30px; border-radius: 999px; background: #E4C255; color: #0A1330; font-size: 18px; font-weight: 700; text-decoration: none">Hier klicken und kostenfreies Video freischalten!<svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"></path></svg></a>
+<div style="font-size: 15px; font-weight: 500; color: #FFFFFF">Kostenfrei · Sofort ansehen · Kein Technik- oder Jura-Vorwissen nötig</div>
+</div>
+</section>
+
+<footer style="min-height: 120px; box-sizing: border-box; padding: 32px; background: #0A1330; color: #DDE5FA; font-size: 14px">
+<div style="max-width: 1120px; margin: 0 auto; display: flex; flex-wrap: wrap; justify-content: space-between; gap: 12px 32px">
+<div>© GovrAI · [Rechtlicher Hinweis / Disclaimer ergänzen]</div>
+<div style="display: flex; gap: 24px"><a href="/impressum" style="color: inherit; text-decoration: none">Impressum</a><a href="/datenschutz" style="color: inherit; text-decoration: none">Datenschutz</a><a href="/agb" style="color: inherit; text-decoration: none">AGB</a></div>
+</div>
+</footer>
+
+</div>
+
+<dialog id="optin" aria-labelledby="optin-title">
+<div style="box-sizing: border-box; padding: 36px; font-family: Barlow, system-ui, sans-serif; color: #0A1330; background: #FFFFFF; display: flex; flex-direction: column; gap: 22px">
+<div style="display: flex; justify-content: space-between; align-items: center; gap: 16px"><div style="font-size: 13px; font-weight: 600; color: #4F5B7D">Fast geschafft · letzter Schritt</div><button type="button" id="optin-close" aria-label="Schlie&szlig;en" style="width: 44px; height: 44px; border: 0; border-radius: 999px; background: #F7FAFE; color: #0A1330; font-size: 22px; line-height: 1; cursor: pointer">&times;</button></div>
+<div style="height: 8px; border-radius: 999px; background: #DDE5FA; overflow: hidden"><div style="width: 80%; height: 100%; border-radius: 999px; background: #1D4ED8"></div></div>
+<div style="display: flex; flex-direction: column; gap: 8px">
+<h2 id="optin-title" style="margin: 0; font-size: 28px; line-height: 1.15; font-weight: 800; letter-spacing: -0.6px">Wohin dürfen wir Dir den Zugang zum Video schicken?</h2>
+<p style="margin: 0; font-size: 16px; line-height: 1.5; color: #4F5B7D">Trag Deine Daten ein und Du kannst das Video sofort ansehen.</p>
+</div>
+<form id="optin-form" style="display: flex; flex-direction: column; gap: 16px; margin: 0">
+<div style="display: flex; flex-direction: column; gap: 6px"><label for="vorname" style="font-size: 14px; font-weight: 600">Vorname</label><input id="vorname" type="text" placeholder="Dein Vorname" style="height: 52px; box-sizing: border-box; padding: 0 16px; border-radius: 12px; border: 1.5px solid #AEC2EC; background: #F7FAFE; font-family: inherit; font-size: 16px; color: #0A1330"></div>
+<div style="display: flex; flex-direction: column; gap: 6px"><label for="email" style="font-size: 14px; font-weight: 600">Geschäftliche E-Mail-Adresse</label><input id="email" type="email" placeholder="name@unternehmen.de" style="height: 52px; box-sizing: border-box; padding: 0 16px; border-radius: 12px; border: 1.5px solid #AEC2EC; background: #F7FAFE; font-family: inherit; font-size: 16px; color: #0A1330"></div>
+<button type="submit" style="min-height: 60px; box-sizing: border-box; padding: 14px 24px; border: 0; border-radius: 999px; background: #1D4ED8; color: #FFFFFF; font-family: inherit; font-size: 18px; font-weight: 700; cursor: pointer">Kostenfreies Video jetzt freischalten</button>
+<div id="optin-msg" role="status" style="display: none; padding: 12px 14px; border-radius: 12px; background: #EEF3FD; font-size: 14px; font-weight: 600; color: #0A1330">Das ist eine Testseite. Hier würde jetzt das Video freigeschaltet. Es wurden keine Daten gesendet oder gespeichert.</div>
+</form>
+<div style="font-size: 13px; line-height: 1.5; color: #4F5B7D">[Einwilligungstext und Link zur Datenschutzerklärung ergänzen]</div>
+</div>
+</dialog>
+<div
+  data-verdict-zero="Noch kein Haken? Damit bist Du nicht allein. Vom KI-Überblick bis zur Nachweisbarkeit klärt das Video alle sechs Themen."
+  data-verdict-all="Stark. Im Video prüfst Du, ob Deine Antworten auch rechtlich halten."
+  data-verdict-partial="Dir fehlt noch Klarheit bei {topics}. Genau das klärt das Video."
+  style="display:none"
+  id="funnel-verdicts"
+></div></div>
+<script>(function () {
+  var root = document.getElementById("ki-legal-guide-page");
+  if (!root) return;
+
+  var items = root.querySelectorAll(".st-item");
+  var verdicts = root.querySelector("#funnel-verdicts") || document.getElementById("funnel-verdicts");
+  var on = {};
+
+  function render() {
+    var count = 0;
+    var open = [];
+    items.forEach(function (b, i) {
+      var s = !!on[i];
+      if (s) count++;
+      else open.push(b.getAttribute("data-topic") || "");
+      b.setAttribute("aria-pressed", s ? "true" : "false");
+      b.style.borderColor = s ? "#1D4ED8" : "#DDE5FA";
+      b.style.background = s ? "#EEF3FD" : "#F7FAFE";
+      var d = b.querySelector(".st-dot");
+      if (d) {
+        d.style.borderColor = s ? "#1D4ED8" : "#AEC2EC";
+        d.style.background = s ? "#1D4ED8" : "#FFFFFF";
+      }
+    });
+
+    var list = open.length > 1 ? open.slice(0, -1).join(", ") + " und " + open[open.length - 1] : open.join("");
+    var verdict;
+    if (count === 0) verdict = (verdicts && verdicts.getAttribute("data-verdict-zero")) || "";
+    else if (count === items.length) verdict = (verdicts && verdicts.getAttribute("data-verdict-all")) || "";
+    else verdict = ((verdicts && verdicts.getAttribute("data-verdict-partial")) || "").replace("{topics}", list);
+
+    var countEl = root.querySelector("#st-count");
+    var verdictEl = root.querySelector("#st-verdict");
+    var barEl = root.querySelector("#st-bar");
+    if (countEl) countEl.textContent = String(count);
+    if (verdictEl) verdictEl.textContent = verdict;
+    if (barEl) barEl.style.width = Math.round((count / items.length) * 100) + "%";
+  }
+
+  items.forEach(function (b, i) {
+    b.addEventListener("click", function () {
+      on[i] = !on[i];
+      render();
+    });
+  });
+  render();
+
+  var dlg = root.querySelector("#optin");
+  if (dlg) {
+    root.querySelectorAll("[data-optin]").forEach(function (a) {
+      a.addEventListener("click", function (e) {
+        e.preventDefault();
+        var msg = root.querySelector("#optin-msg");
+        if (msg) msg.style.display = "none";
+        if (dlg.showModal) dlg.showModal();
+        else dlg.setAttribute("open", "");
+      });
+    });
+    var closeBtn = root.querySelector("#optin-close");
+    if (closeBtn) closeBtn.addEventListener("click", function () { dlg.close(); });
+    dlg.addEventListener("click", function (e) {
+      if (e.target === dlg) dlg.close();
+    });
+    var form = root.querySelector("#optin-form");
+    if (form) {
+      form.addEventListener("submit", function (e) {
+        e.preventDefault();
+        var msg = root.querySelector("#optin-msg");
+        if (msg) msg.style.display = "block";
+      });
+    }
+  }
+})();
+</script>
+</body>
+</html>
